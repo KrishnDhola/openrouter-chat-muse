@@ -115,5 +115,13 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [require("tailwindcss-animate"), require("daisyui")],
+	daisyui: {
+		themes: ["matsu"],
+		darkTheme: false,
+		base: true,
+		styled: true,
+		utils: true,
+		logs: false,
+	},
 } satisfies Config;
