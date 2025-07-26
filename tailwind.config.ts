@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					focus: 'hsl(var(--primary-focus))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -34,7 +35,8 @@ export default {
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
+					foreground: 'hsl(var(--destructive-foreground))',
+					border: 'hsl(var(--destructive-border))'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
@@ -61,7 +63,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				chart: {
+					'1': 'hsl(var(--chart-1))',
+					'2': 'hsl(var(--chart-2))',
+					'3': 'hsl(var(--chart-3))',
+					'4': 'hsl(var(--chart-4))',
+					'5': 'hsl(var(--chart-5))'
 				}
+			},
+			fontFamily: {
+				sans: ['var(--font-family)'],
+				serif: ['var(--font-family-serif)']
+			},
+			fontWeight: {
+				normal: 'var(--font-weight-normal)',
+				medium: 'var(--font-weight-medium)',
+				bold: 'var(--font-weight-bold)'
+			},
+			boxShadow: {
+				'matsu-primary': 'var(--shadow-primary)',
+				'matsu-destructive': 'var(--shadow-destructive)',
+				'matsu-base': 'var(--shadow-base)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
