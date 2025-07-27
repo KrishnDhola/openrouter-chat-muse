@@ -1,6 +1,6 @@
 import { OpenRouterModel, OpenRouterResponse } from '@/types/chat';
 
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = '';
 const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1';
 
 export const FREE_MODELS: OpenRouterModel[] = [
